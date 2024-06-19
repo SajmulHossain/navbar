@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color:#ffaf40 ;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+header .logo{
+    font-family: "Baumans", system-ui;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    /* background-color: #4b4b4b; */
+    float: left;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(3, 17, 12);
+    display: block;
+}
+header ul li a:hover{
+    /* background-color: #227093; */
+    color: #e7facc;
+    transform: translateX(4px);
+    
+}
+
+header button{
+    border: none;
+    padding: 10px 15px;
+    float: right;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right:10px ;
+    font-weight: 700;
+}
+header button:hover{
+    background: linear-gradient(#12e6b8,#706fd3,#fa45fb);
+    scale: 1.2;
+}
+
+.logo{
+    order: 1;
+}
+
+.auth{
+    order: 2;
+    margin-right: auto;
+    margin-left: 30px;
+    background-color: darkslateblue;
+}
+
+nav{
+    order: 3;
+    margin-right: 20px;
+}
